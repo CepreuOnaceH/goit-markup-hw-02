@@ -15,9 +15,23 @@ body {
 
 .logo {
   color: var(--accent-text-color);
+  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-up {
   color: var(--primary-text-color);
+  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 ul {
@@ -118,7 +132,20 @@ ul {
 }
 .logo-text {
   color: var(--logo-text-color);
+  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-down {
   color: var(--logo-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
