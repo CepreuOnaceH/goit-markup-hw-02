@@ -83,10 +83,10 @@ body {
   letter-spacing: 0.02em;
 }
 .auth-nav:hover {
-  color: var(--accent-text-color);
+  color: var(--hero-btn-bcg-color);
 }
 .auth-nav-tel:hover {
-  color: var(--secondary-text-color);
+  color: var(--secondary-text-color;
 }
 /* Hero section */
 .hero {
