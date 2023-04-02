@@ -1,0 +1,130 @@
+/* main text color #2E2F42 */
+/* secondary text color #434455 */
+/* iris #4D5AE5 */
+/* white #FFFFFF */
+/* cornflower #E7E9FC */
+/* cloud #F4F4FD */
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --accent-text-color: #4d5ae5;
+  --logo-text-color: #f4f4fd;
+  --biggest-text-color: #ffffff;
+  --hero-btn-bcg-color: #404bbf;
+}
+/* header */
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+  font-family: roboto;
+}
+
+.logo {
+  color: var(--accent-text-color);
+}
+.logo-up {
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+.site-nav {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  width: 66px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.site-nav:hover {
+  color: var(--secondary-text-color);
+}
+.site-nav:focus {
+  color: var(--accent-text-color);
+}
+.auth-nav,
+.auth-nav-tel {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.auth-nav:hover {
+  color: var(--accent-text-color);
+}
+.auth-nav-tel:hover {
+  color: var(--secondary-text-color);
+}
+/* Hero section */
+.hero {
+  background-color: var(--primary-text-color);
+}
+.hero-title {
+  color: var(--biggest-text-color);
+}
+.hero-btn {
+  background-color: var(--accent-text-color);
+  color: var(--biggest-text-color);
+}
+.hero-btn:active {
+  background-color: var(--hero-btn-bcg-color);
+}
+
+/* About us section */
+.aboutus-title {
+  color: var(--primary-text-color);
+}
+.aboutus-text {
+  color: var(--secondary-text-color);
+}
+/* Portfolio section */
+.portfolio-title {
+  color: var(--primary-text-color);
+}
+.
+/* Our team- section */
+.our-team-title {
+  color: var(--primary-text-color);
+}
+.our-team-list-title {
+  color: var(--primary-text-color);
+}
+.our-team-list-text {
+  color: var(--secondary-text-color);
+}
+/* filters section */
+.filter-button-first {
+  background-color: var(--accent-text-color);
+  color: var(--biggest-text-color);
+}
+.filter-button {
+  background-color: var(--logo-text-color);
+  color: var(--accent-text-color);
+}
+/* Portfolio section */
+.potrfolio-title {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.portfolio-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+/* footer */
+.footer {
+  background-color: var(--primary-text-color);
+}
+.logo-text {
+  color: var(--logo-text-color);
+}
+.logo-down {
+  color: var(--logo-text-color);
+}
