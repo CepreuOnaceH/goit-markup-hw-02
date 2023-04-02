@@ -34,9 +34,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.adress {
+  font-style: normal;
+}
 
 .list {
   list-style: none;
+}
+.list:hover {
+  color: var(--hero-btn-bcg-color);
+}
+.list:focus {
+  color: var(--hero-btn-bcg-color);
 }
 .site-nav {
   text-decoration: none;
@@ -45,16 +54,16 @@ body {
   height: 24px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .site-nav:hover {
-  color: var(--secondary-text-color);
+  color: var(--hero-btn-bcg-color);
 }
 .site-nav:focus {
-  color: var(--accent-text-color);
+  color: var(--hero-btn-bcg-color);
 }
 .auth-nav,
 .auth-nav-tel {
@@ -65,6 +74,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .auth-nav:hover {
   color: var(--accent-text-color);
