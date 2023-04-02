@@ -24,6 +24,12 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.link:focus {
+  color: var(--hero-btn-bcg-color);
+}
+.link:hover {
+  color: var(--hero-btn-bcg-color);
+}
 .logo-up {
   color: var(--primary-text-color);
   font-family: "Raleway", sans-serif;
