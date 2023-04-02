@@ -127,25 +127,46 @@ body {
   letter-spacing: 0.02em;
 }
 .aboutus-text {
-  font-size: 16px;
   color: var(--secondary-text-color);
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* Portfolio section */
 .portfolio-title {
   color: var(--primary-text-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-.
 /* Our team- section */
+.our-team {
+  background: var(--logo-text-color);
+}
 .our-team-title {
   color: var(--primary-text-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .our-team-list-title {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.our-team-list {
+    background: var(--biggest-text-color);
 }
 .our-team-list-text {
   color: var(--secondary-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* filters section */
 .filter-button-first {
