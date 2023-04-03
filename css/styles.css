@@ -71,8 +71,7 @@ body {
 .site-nav:focus {
   color: var(--hero-btn-bcg-color);
 }
-.auth-nav,
-.auth-nav-tel {
+.auth-nav {
   text-decoration: none;
   color: var(--secondary-text-color);
   font-family: "Roboto";
