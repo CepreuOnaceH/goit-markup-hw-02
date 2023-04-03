@@ -24,13 +24,6 @@ body {
 }
 .logo-up {
   color: var(--primary-text-color);
-  font-family: "Raleway", sans-serif;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .adress {
   font-style: normal;
