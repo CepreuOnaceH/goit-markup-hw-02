@@ -70,7 +70,7 @@ body {
   color: var(--hero-btn-bcg-color);
 }
 .auth-nav-tel:hover {
-  color: var(--secondary-text-color;
+  color: var(--secondary-text-color);
 }
 /* Hero section */
 .hero {
@@ -105,11 +105,11 @@ body {
 /* About us section */
 
 .about-us-header {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .aboutus-title {
   color: var(--primary-text-color);
@@ -153,7 +153,7 @@ color: var(--primary-text-color);
   letter-spacing: 0.02em;
 }
 .our-team-list {
-    background: var(--biggest-text-color);
+  background: var(--biggest-text-color);
 }
 .our-team-list-text {
   color: var(--secondary-text-color);
