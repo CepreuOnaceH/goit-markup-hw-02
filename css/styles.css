@@ -119,6 +119,14 @@ body {
   background-color: var(--hero-btn-bcg-color);
 }
 /* About us section */
+
+.about-us-header {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
 .aboutus-title {
   color: var(--primary-text-color);
   font-weight: 500;
