@@ -5,6 +5,7 @@
   --logo-text-color: #f4f4fd;
   --biggest-text-color: #ffffff;
   --hero-btn-bcg-color: #404bbf;
+  --hero-bcg-color: #e5e5e5;
 }
 /* header */
 body {
@@ -178,6 +179,9 @@ body {
   background: var(--hero-btn-bcg-color);
 }
 /* Portfolio section */
+.portfolio-hero {
+  background-color: var(--hero-bcg-color);
+}
 
 .portfolio-link {
   color: var(--primary-text-color);
@@ -212,12 +216,10 @@ body {
 .logo-text {
   color: var(--logo-text-color);
   font-family: "Raleway", sans-serif;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .logo-down {
   color: var(--logo-text-color);
