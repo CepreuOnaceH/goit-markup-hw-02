@@ -7,13 +7,58 @@
   --hero-btn-bcg-color: #404bbf;
   --hero-bcg-color: #e5e5e5;
 }
+
+/* Reset */
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+img {
+  display: block;
+}
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
 /* header */
+.header-container {
+  display: flex;
+  align-items: center;
+}
 body {
   background-color: #ffffff;
   color: #434455;
   font-family: "Roboto", sans-serif;
 }
-
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  height: 72px;
+}
+.navigation {
+  margin-right: 332px;
+}
 .link {
   text-decoration: none;
 }
@@ -32,6 +77,8 @@ body {
 
 .list {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .list:hover {
   color: var(--hero-btn-bcg-color);
@@ -74,7 +121,12 @@ body {
   color: var(--secondary-text-color);
 }
 /* Hero section */
+.container-hero {
+  height: 600px;
+}
 .hero {
+  padding-bottom: 188px;
+  padding-top: 188px;
   background-color: var(--primary-text-color);
 }
 .hero-title {
@@ -119,23 +171,21 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.about-us-container {
+  display: flex;
+  gap: 24px;
+}
 .aboutus-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* Portfolio section */
-.portfolio-title {
-  color: var(--primary-text-color);
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
 
 /* Our team- section */
+.list-container {
+  display: flex;
+}
 .our-team {
   background-color: var(--logo-text-color);
 }
@@ -179,6 +229,24 @@ body {
   background: var(--hero-btn-bcg-color);
 }
 /* Portfolio section */
+
+.portfolio-list {
+  width: 1128px;
+  display: flex;
+  gap: 24px;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  padding-bottom: 72px;
+}
 .portfolio-hero {
   background-color: var(--hero-bcg-color);
 }
@@ -212,6 +280,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-text-color);
+  margin-right: 76px;
 }
 .logo-text {
   color: var(--logo-text-color);
